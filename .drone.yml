@@ -3,7 +3,7 @@ env:
   - GOPATH=/var/cache/drone
 script:
   - go build
-  - sleep 15
+  - sleep 10
   - go test -v
 services:
   - redis
